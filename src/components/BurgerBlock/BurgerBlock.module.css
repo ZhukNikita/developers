@@ -1,0 +1,80 @@
+.burgerblock{
+    width: 100%;
+    height: 100%;
+    background-color: #DAECFF;
+    position: relative;
+    padding-bottom: 110px;
+}
+.img_11{
+    position: absolute;
+    width: 133px;
+    height: 148px;
+    top: 463px;
+    right: 145px;
+}
+.body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    width: 60%;
+}
+.list h1{
+    margin: 120px 0 65px 0;
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+}
+.element{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.closeElement{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.closeElement p{
+    margin-left: 28px;
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+}
+.closeElement div{
+    display: flex;
+    align-items: center;
+    margin-left: 44px;
+}
+.openElement{
+    display: flex;
+    height: 100%;
+    padding: 0 69px 54px 56px;
+}
+.vl {
+    width: 1px;
+    border-left: 1px solid black;
+    top: 0;
+    left: 0;
+}
+.openElement p{
+
+    margin: 7px 0 7px 42px;
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+}
