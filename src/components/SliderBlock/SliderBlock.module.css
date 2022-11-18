@@ -1,0 +1,60 @@
+.sliderBlock{
+    width: 100%;
+    height: 780px;
+    position: relative;
+    padding-bottom: 128px;
+}
+.img_12{
+    width: 67px;
+    height: 67px;
+    position: absolute;
+    top: 129px;
+    left: 187px;
+}
+.img_13{
+    width: 190px;
+    height: 70px;
+    position: absolute;
+    bottom: 47px;
+    right: 186px;
+}
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body h1{
+    margin: 123px 0 84px 0;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 125%;
+}
+.sliderBody{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.SliderButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px ;
+    background: rgba(0, 0, 0, 0.73);
+    color: white;
+    height: 24px;
+    width: 24px;
+
+}
+.buttons{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 56px;
+    height: 0;
+    transform: translate(125px,-35px);
+}
